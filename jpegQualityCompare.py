@@ -147,3 +147,4 @@ if __name__ == "__main__":
     if any(value < 0 or value > 255 for value in args.background):
         parser.error("배경 RGB 값은 각각 0~255여야 합니다.")
     run(args.input_png, args.output, tuple(args.background))
+    
